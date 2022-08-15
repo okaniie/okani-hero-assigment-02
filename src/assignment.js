@@ -15,11 +15,12 @@ const assignment = {};
  */
 function sumOfNumbers(arrayOfNumbers) {
     let sum = 0
-    arrayOfNumbers.forEach(num => sum+=num
+    arrayOfNumbers.forEach(num => sum+=num)
     
     return sum;
     
 }
+sumOfNumbers([5,3])
 // assignment.sumOfNumbers = sumOfNumbers;
 
 /**
@@ -51,8 +52,10 @@ function countEvenNumbers(arrayOfNumbers) {
  * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
-    return arrayOfNumbers;
+    return arrayOfNumbers * 9/5 + 32 
+    
 }
+celsiusToFahrenheit([23])
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
